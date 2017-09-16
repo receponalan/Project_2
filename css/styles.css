@@ -1,0 +1,62 @@
+body {
+background-color: #ffffe6;
+font-family: 'Anton', sans-serif;
+}
+
+
+
+
+
+
+
+/* Media Queries*/
+@media (max-width: 320px) {
+
+.name {
+  text-align: center;
+  font-size: 24px;
+}
+
+.nav ul li {
+  list-style: none;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+.nav ul li a {
+  text-decoration: none;
+
+}
+a:hover {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+.first {
+  background-color: white;
+
+}
+
+.second {
+  background-color: white;
+}
+
+.third {
+  background-color: white;
+}
+}
