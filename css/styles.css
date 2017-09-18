@@ -1,23 +1,9 @@
-body {
-
-font-family: 'Anton', sans-serif;
-}
-
-header {
-  background-color: #f2f2f2;
-}
-
-footer {
-  background-color: #f2f2f2;
-}
-
-
-
-/* Media Query for mobile phone*/
-@media (max-width: 320px) {
+/*media query fot mobile*/
+@media (min-width:0px) and (max-width:767px) {
 body {
   margin: 0px;
   padding: 0px;
+  font-family: 'Anton', sans-serif;
 }
 
 header {
@@ -88,16 +74,14 @@ a:visited {
 .layout-profile {
   display: block;
   margin: 0 auto;
-  height: 180px;
-  width:  230px;
+  max-width:  70%;
 
 }
 
 img {
   display: block;
   margin: 0 auto;
-  height: 220px;
-  width: 280px;
+  max-width: 95%;
 
 }
 
@@ -113,7 +97,7 @@ article {
 hr {
   margin-top: 50px;
 }
-.container {
+.first-container {
   display: flex;
   justify-content: space-between;
 }
@@ -124,3 +108,129 @@ a {
 }
 
 /* Media Query for tablet */
+ @media (min-width:768px) and (max-width: 1023px){
+
+/*
+=================================
+        MAIN HTML TAGS
+=================================
+*/
+body {
+  font-family: 'Anton', sans-serif;
+}
+
+
+
+
+/*
+===============================
+            CSS
+===============================
+*/
+
+.name {
+  text-align: center;
+}
+
+.nav ul {
+  text-align: center;
+}
+
+.nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 60px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* PSEUDO CLASS */
+
+a:hover {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+/* PSEUDO CLASS END */
+
+
+
+/* CSS CONTAINERS */
+/*END OF CSS CONTAINERS*/
+
+
+/*OTHER CSS STUFF*/
+
+
+/*END OF OTHER CSS STUFF*/
+
+/*
+==============================
+      OTHER STUFF
+==============================
+*/
+
+img {
+max-width: 100%;
+}
+
+.layout-profile {
+  display: block;
+  margin: 0 auto;
+  height: 220px;
+  width: 280px;
+}
+
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: tomato;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  order: 1;
+
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+
+
+
+
+ }
